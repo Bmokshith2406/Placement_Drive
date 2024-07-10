@@ -1,0 +1,67 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url('../../public/photo-1482440308425-276ad0f28b19.jpg') no-repeat bottom fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    margin: 150px auto;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    max-width: 600px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.message-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.message-info h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.message-info time {
+    margin: 0;
+    color: #6c757d;
+    font-size: 12px;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    background-color: #343a40;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .message-container {
+        width: 90%;
+        padding: 10px;
+    }
+}

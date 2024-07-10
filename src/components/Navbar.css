@@ -1,0 +1,46 @@
+.NavItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:auto;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+  width: auto;
+  margin-top: 25px;
+  height: 100px;
+  border-radius: 25px;
+  padding: 0 30px;
+  width: 90%;
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-logo{
+  width: 22%;
+  padding-left: 10px;
+}
+.nav-menu{
+  display: grid;
+  grid-template-columns: repeat(6,auto);
+  grid-gap: 10px;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  padding-top:13px;
+}
+.nav-links{
+  text-decoration: none;
+  color: black;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  font-weight: bold;
+  color: black;
+}
+.nav-links:hover{
+  background-color:#FFFFFF ;
+  border: solid black 2px;
+  border-radius: 30px;
+  color:black;
+  color: red;
+  transition: all 0.180s ease-in-out;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+}

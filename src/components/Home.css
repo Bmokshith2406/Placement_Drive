@@ -1,0 +1,162 @@
+body{
+    background-color:#E7E7E7;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+/* Center content horizontally and vertically */
+.HOIRA{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center images horizontally */
+.imagessd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* Center images horizontally with border */
+.imagessdsh{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 4px solid black;
+}
+
+/* Heading styles */
+.Headingonly{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background: #FFFFFF;
+    font-size: 34px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+    color: black;
+    width: 30%;
+    margin: auto;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* Hello styles */
+.Hello{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+    background: none;
+}
+
+/* h4 styles */
+h4{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Companies grid */
+.Companies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    animation: fadeIn 6s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+    border-radius: 30px;
+    margin-bottom: 35px;
+}
+
+/* Individual company styles */
+.Individual-Company {
+    background: #FFFFFF;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+}
+
+/* Individual company image styles */
+.Individual-Company img {
+    max-width: 180px;
+    border-radius: 30px;
+    animation: fadeIn 10s;
+}
+
+/* Green text */
+span {
+    color:green;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Horizontal rule */
+hr { 
+    height: 6px; 
+    background: linear-gradient(to right, red, white, green,red, white, green, red, white, green); 
+    border-radius: 20px;
+    border: 0.5px solid black; 
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    main {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .Headingonly {
+        font-size: 28px;
+        width: 60%;
+        padding: 6px;
+    }
+
+    .Hello {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .Companies {
+        padding: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .Individual-Company img {
+        max-width: 120px;
+    }
+}
